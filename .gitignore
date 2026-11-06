@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 数据文件（不上传数据库导出文件）
+*.csv
+*.xlsx
+*.json
+*.txt
+
+# HTML缓存文件
+htmls/
+*.html
+
+# 日志
+*.log
+crawl_log.txt
+
+# 断点文件
+breakpoint.json
+
+# 本地配置
+config.py
+secrets.py
+.env
+
+# 系统文件
+.DS_Store
+Thumbs.db
